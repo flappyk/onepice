@@ -2,18 +2,15 @@
 	<div class="footer-inner">
 		<div class="copyright">
 			&copy;
-			<span class="copy-year">2015</span>
-			<span class="love-with">
-			<i class="fa fa-heart-o"></i>
-		</span>
-			<span class="copy-author">Jaylin Wang</span>
+			<span class="copy-year">2015 - {{date published_at format="YYYY"}} </span>
+			<span class="copy-author"><a class="ext-link" href="{{@blog.url}}">{{@blog.title}}</a></span>
 		</div>
 		<div class="support">
 			<span class="powered-by">
-			使用<a class="ext-link">Ghost</a>搭建
+			Powered by <a class="ext-link" href="https://ghost.org/" target="blank">Ghost</a>
 		</span>
 			<span class="theme-info">
-			主题-<a class="ext-link">Onepice</a>
+			Theme <a class="ext-link">Onepice</a>
 		</span>
 		</div>
 	</div>

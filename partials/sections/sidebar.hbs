@@ -1,26 +1,30 @@
 <section class="sidebar" id="Sidebar">
 	<div class="sidebar-inner">
 		<div class="site-author">
-			<img class="site-author-avatar" data-toggle="userimage" src="">
+		{{#post}}
+		{{#author}}
+        	<img class="site-author-avatar" data-toggle="userimage" src="">
 			<div class="site-author-name" data-toggle="username">
-				
+				{{name}}
 			</div>
 			<div class="site-author-location">
-				<i class="fa fa-map-marker"></i> <span data-toggle="userlocation"></span>
+				<i class="fa fa-map-marker"></i> <span data-toggle="userlocation">{{location}}</span>
 			</div>
 			<div class="site-author-bio" data-toggle="userbio">
-				
+				{{bio}}
 			</div>
+    	{{/author}}	
+    	{{/post}}		
 		</div>
 		<ul class="site-social">
 			<li>
-				<a href="https://github.com/guovz" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://github.com/#" target="_blank"><i class="fa fa-github"></i></a>
 			</li>
 			<li>
-				<a href="http://weibo.com/guovz" target="_blank"><i class="fa fa-weibo"></i></a>
+				<a href="http://weibo.com/#" target="_blank"><i class="fa fa-weibo"></i></a>
 			</li>
 			<li>
-				<a href="https://twitter.com/guovz" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://twitter.com/#" target="_blank"><i class="fa fa-twitter"></i></a>
 			</li>
 			<li>
 				<a href="/rss" target="_blank"><i class="fa fa-rss"></i></a>
