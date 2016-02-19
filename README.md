@@ -1,5 +1,16 @@
 Ghost主题
 ===
+onepice个人修改版
+
+log
+===
+1. 增加部分global data
+2. 优化原有样式
+3. 增加CSS CDN
+
+以下为原作者介绍：
+===
+
 
 onepice是一款适用于ghost的博客主题。
 
